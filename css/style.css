@@ -1,5 +1,74 @@
 body{
-
-
     background-color: blue;
+    background-image:url("../img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    color: white;
+}
+.inicio h1{
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.inicio img{
+    border-radius: 100%;
+    border: 5px solid grey;
+
+}
+
+
+
+h1{
+    color: rgb(26, 195, 195);
+
+}
+h2{
+color: aquamarine;
+}
+h3{
+color: blue;
+}
+h4{
+color: antiquewhite;
+}
+h5{
+color: blueviolet;
+}
+h6{
+color: black;
+}
+.galeria{
+    display:flex;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom, purple 0%, pink 100%)
+    overflow-x: scroll;
+}
+.galeria img{
+    width: 300px;
+    height: 300px;
+
+}
+.inicio{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color:coral;
+color:chartreuse
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-arond;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 10px;
 }
